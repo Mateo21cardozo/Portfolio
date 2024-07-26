@@ -1,5 +1,4 @@
 import { Routes, RouterModule } from '@angular/router';
-import { AboutComponent } from './pages/about/about.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { NgModule } from '@angular/core';
 
