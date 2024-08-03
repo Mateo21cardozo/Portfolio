@@ -11,6 +11,16 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ .perfil-img{
+    width: 160px;
+      /* Ancho de la imagen */
+      height: 180px;
+      /* Alto de la imagen, igual al ancho para que sea cuadrada */
+      border-radius: 50%;
+      /* Hace que la imagen sea redonda */
+      overflow: hidden;
+
+ }
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;

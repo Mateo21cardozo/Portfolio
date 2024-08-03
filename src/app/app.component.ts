@@ -5,6 +5,8 @@ import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './shared/header/header.component';
+import { ContactComponent } from './pages/contact/contact.component';
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -15,6 +17,7 @@ import { HeaderComponent } from './shared/header/header.component';
     PortfolioComponent,
     AboutComponent,
     HeaderComponent,
+    ContactComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
