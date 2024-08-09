@@ -18,13 +18,7 @@ export class PortfolioComponent {
       description:
         'Bricke es un E-Commerce dedicado al intercambio y venta de productos entre personas. Mi trabajo consiste en realizar análisis de problemáticas, definición de casos de uso, entre otros.Trabajo con Angular desarrollando Front-end y Figma como herramienta de diseño de vistas.',
     },
-    {
-      id: 'dragonBallSls',
-      title: 'Dragon Balls Serverless Project',
-      logo: 'assets/img/portfolio/serverlessLogo.jpeg',
-      description:
-        ' Es un proyecto trabajo realizado utilizando tecnologias como  Serverless (Back-end) y Angular CLi (Front-end).El lenguaje Utilizado es Javascript.',
-    },
+
     {
       id: 'heroesApp',
       title: 'Heroes Project',
@@ -45,6 +39,13 @@ export class PortfolioComponent {
       logo: 'assets/img/portfolio/formularioLogo.png',
       description:
         ' Proyecto realizado en Angular CLi consumiendo Api de paises aqui se demuestra los dos tipos de formulario sus usos y validaciones',
+    },
+    {
+      id: 'dragonBalls',
+      title: 'Dragon Balls Serverless Project',
+      logo: 'assets/img/portfolio/serverlessLogo.jpeg',
+      description:
+        ' Es un proyecto trabajo realizado utilizando tecnologias como  Serverless (Back-end) y Angular CLi (Front-end).El lenguaje Utilizado es Javascript.',
     },
     {
       id: 'listaTareas',
