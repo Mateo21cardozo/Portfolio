@@ -21,6 +21,14 @@
       overflow: hidden;
 
  }
+ .image-container img {
+   width: 200px;
+   /* Ancho fijo */
+   height: 200px;
+   /* Alto fijo */
+   object-fit: cover;
+   /* Ajusta la imagen sin distorsionarla */
+ }
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11014,6 +11022,16 @@ html {
   border-radius: 0.5rem;
   overflow: hidden;
 }
+.portfolio .portfolio-item img {
+  width: 100%;
+  /* Las imágenes ocuparán todo el ancho del contenedor */
+  height: 200px;
+  /* Fija la altura deseada */
+  object-fit: cover;
+  /* Ajusta la imagen para que llene el contenedor */
+  border-radius: 0.5rem;
+  /* Aplica el mismo radio de borde que el contenedor */
+}
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
@@ -11028,7 +11046,16 @@ html {
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
 }
-
+.portfolio-modal img {
+  width: 100%;
+  /* Las imágenes del modal ocuparán todo el ancho del contenedor */
+  height: 200px;
+  /* Mantén la altura consistente */
+  object-fit: cover;
+  /* Asegura que la imagen llene el contenedor sin distorsión */
+  border-radius: 0.5rem;
+  /* Consistente con el diseño del portafolio */
+}
 .portfolio-modal .btn-close {
   color: #1abc9c;
   font-size: 2rem;

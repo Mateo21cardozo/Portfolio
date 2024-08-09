@@ -12,7 +12,7 @@ export const routes: Routes = [
       ),
   },
   {
-    path: 'portflio',
+    path: 'portfolio',
     loadComponent: () =>
       import('./pages/portfolio/portfolio.component').then(
         (m) => m.PortfolioComponent
