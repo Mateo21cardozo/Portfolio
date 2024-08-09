@@ -14,7 +14,7 @@ export class PortfolioComponent {
     {
       id: 'bricke',
       title: 'Bricke',
-      logo: 'assets/img/portfolio/brickeLogo.png',
+      logo: 'assets/img/portfolio/logo.svg',
       description:
         'Bricke es un E-Commerce dedicado al intercambio y venta de productos entre personas. Mi trabajo consiste en realizar análisis de problemáticas, definición de casos de uso, entre otros.Trabajo con Angular desarrollando Front-end y Figma como herramienta de diseño de vistas.',
     },

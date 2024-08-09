@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @charset "UTF-8";
+
 /*!
 * Start Bootstrap - Freelancer v7.0.7 (https://startbootstrap.com/theme/freelancer)
 * Copyright 2013-2023 Start Bootstrap
@@ -12,14 +13,12 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
  .perfil-img{
-    width: 160px;
-      /* Ancho de la imagen */
-      height: 180px;
-      /* Alto de la imagen, igual al ancho para que sea cuadrada */
-      border-radius: 50%;
-      /* Hace que la imagen sea redonda */
-      overflow: hidden;
-
+  width: 193px;
+  height: 230px;
+  /* Alto de la imagen, igual al ancho para que sea cuadrada */
+  border-radius: 50%;
+  /* Hace que la imagen sea redonda */
+  overflow: hidden;
  }
  .image-container img {
    width: 200px;
@@ -11047,7 +11046,7 @@ html {
   font-size: 1.5rem;
 }
 .portfolio-modal img {
-  width: 100%;
+  width: auto;
   /* Las imágenes del modal ocuparán todo el ancho del contenedor */
   height: 200px;
   /* Mantén la altura consistente */
@@ -11069,6 +11068,12 @@ html {
   .portfolio-modal .portfolio-modal-title {
     font-size: 3rem;
     line-height: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-modal img {
+    width: 200px;
   }
 }
 
