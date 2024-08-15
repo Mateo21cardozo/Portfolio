@@ -73,7 +73,7 @@ export class PortfolioComponent {
     {
       id: 'listaTareas',
       title: 'Listas Tareas en Node',
-      logo: '../../../assets/img/portfolio/listaTareasLogo.jpg',
+      logo: '/assets/img/portfolio/listaTareasLogo.jpg',
       description:
         'Este proyecto es una aplicación de consola interactiva desarrollada como parte de un curso de Udemy, utilizando Node.js como framework principal. La aplicación emplea paquetes como Inquirer y Yargs para crear una experiencia de usuario fluida y dinámica en la línea de comandos. Este enfoque permite manejar diversas operaciones de manera eficiente y con una interfaz amigable para el usuario.',
     },
