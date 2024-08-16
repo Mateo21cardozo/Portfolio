@@ -10911,8 +10911,12 @@ html {
 /* Media query para pantallas móviles (max-width: 600px) */
 @media only screen and (max-width: 600px) {
   .btn-social {
-    font-size: 18px;
-    /* Reduce el tamaño de los iconos */
+font-size: 1.125rem;
+  /* Adjust the font size for smaller screens */
+  width: 2.75rem;
+  /* Reduce the button size */
+  height: 2.75rem;
+  /* Reduce the button size */
   }
 }
 #mainNav {
