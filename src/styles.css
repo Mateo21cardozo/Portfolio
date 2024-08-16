@@ -10908,7 +10908,13 @@ html {
   justify-content: center;
   align-items: center;
 }
-
+/* Media query para pantallas móviles (max-width: 600px) */
+@media only screen and (max-width: 600px) {
+  .btn-social {
+    font-size: 18px;
+    /* Reduce el tamaño de los iconos */
+  }
+}
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
