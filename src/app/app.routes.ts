@@ -3,6 +3,13 @@ import { NgModule } from '@angular/core';
 
 export const routes: Routes = [
   {
+    path: '',
+    loadComponent: () =>
+      import('./pages/portfolio/portfolio.component').then(
+        (m) => m.PortfolioComponent
+      ),
+  },
+  {
     path: 'portfolio',
     loadComponent: () =>
       import('./pages/portfolio/portfolio.component').then(
@@ -21,7 +28,7 @@ export const routes: Routes = [
         (m) => m.ContactComponent
       ),
   },
-  { path: '**', pathMatch: 'full', redirectTo: '/portfolio' },
+  { path: '**', pathMatch: 'full', redirectTo: '' },
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes, {useHash: true})],
