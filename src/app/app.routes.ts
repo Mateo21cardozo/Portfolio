@@ -1,16 +1,7 @@
 import { Routes, RouterModule } from '@angular/router';
-import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { NgModule } from '@angular/core';
-import { ContactComponent } from './pages/contact/contact.component';
 
 export const routes: Routes = [
-  {
-    path: '',
-    loadComponent: () =>
-      import('./pages/portfolio/portfolio.component').then(
-        (m) => m.PortfolioComponent
-      ),
-  },
   {
     path: 'portfolio',
     loadComponent: () =>
@@ -30,10 +21,10 @@ export const routes: Routes = [
         (m) => m.ContactComponent
       ),
   },
-  { path: '**', pathMatch: 'full', redirectTo: '' },
+  { path: '**', pathMatch: 'full', redirectTo: '/portfolio' },
 ];
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {useHash: true})],
   exports: [RouterModule],
 })
 export class AppRoutesModule {}
