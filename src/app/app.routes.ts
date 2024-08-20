@@ -2,19 +2,12 @@ import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 
 export const routes: Routes = [
-  // {
-  //   path: '',
-  //   loadComponent: () =>
-  //     import('./pages/portfolio/portfolio.component').then(
-  //       (m) => m.PortfolioComponent
-  //     ),
-  // },
   { path: '',
-    redirectTo: '/portfolio',
+    redirectTo: '/home',
     pathMatch: 'full'
   },
   {
-    path: 'portfolio',
+    path: 'home',
     loadComponent: () =>
       import('./pages/portfolio/portfolio.component').then(
         (m) => m.PortfolioComponent
@@ -25,14 +18,7 @@ export const routes: Routes = [
     loadComponent: () =>
       import('./pages/about/about.component').then((m) => m.AboutComponent),
   },
-  {
-    path: 'contact',
-    loadComponent: () =>
-      import('./pages/contact/contact.component').then(
-        (m) => m.ContactComponent
-      ),
-  },
-  { path: '**', pathMatch: 'full', redirectTo: '/portfolio' },
+  { path: '**', pathMatch: 'full', redirectTo: '/home' },
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes, {useHash: true})],

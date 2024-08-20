@@ -1,7 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { HeaderComponent } from '../../shared/header/header.component';
 import { CommonModule } from '@angular/common';
-import { ProjectService } from './portfolio.service';
 
 @Component({
   selector: 'app-portfolio',
@@ -10,7 +9,7 @@ import { ProjectService } from './portfolio.service';
   templateUrl: './portfolio.component.html',
   styleUrls: ['./portfolio.component.css'],
 })
-export class PortfolioComponent implements OnInit {
+export class PortfolioComponent {
   // public projects: any[] = [];
   public projects: any[] = [
     {
@@ -80,17 +79,6 @@ export class PortfolioComponent implements OnInit {
         'Este proyecto es una aplicación de consola interactiva desarrollada como parte de un curso de Udemy, utilizando Node.js como framework principal. La aplicación emplea paquetes como Inquirer y Yargs para crear una experiencia de usuario fluida y dinámica en la línea de comandos. Este enfoque permite manejar diversas operaciones de manera eficiente y con una interfaz amigable para el usuario.',
     },
   ];
-  constructor(private projectService: ProjectService) {}
+  constructor() {}
 
-  ngOnInit(): void {
-    // this.projectService.getProjects().subscribe(
-    //   (response) => {
-    //     this.projects = response;
-    //     console.log(this.projects);
-    //   },
-    //   (error) => {
-    //     console.error(error);
-    //   }
-    // );
-  }
 }
