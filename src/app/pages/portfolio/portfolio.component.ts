@@ -17,28 +17,28 @@ export class PortfolioComponent {
       title: 'Bricke',
       logo: 'assets/img/portfolio/logo.svg',
       description:
-        'En Bricke, un e-commerce dedicado al intercambio y venta de productos entre personas, trabajo como junior front-end developer. Mis responsabilidades incluyen el análisis de problemas, la definición de casos de uso y otras tareas relacionadas. Utilizo Angular para el desarrollo del front-end y Figma para el diseño de vistas. El equipo está compuesto por un líder técnico front-end, dos desarrolladores backend, una diseñadora de producto y un tester. Empleamos metodologías Kanban y gestionamos el proyecto mediante Trello.',
+        'At Bricke, an e-commerce platform dedicated to the exchange and sale of products between individuals, I work as a junior front-end developer. My responsibilities include problem analysis, defining use cases, and other related tasks. I use Angular for front-end development and Figma for designing views. The team consists of a technical lead front-end developer, two back-end developers, a product designer, and a tester. We use Kanban methodologies and manage the project through Trello.',
     },
     {
       id: 'serverless',
       title: 'Serverless Project',
       logo: 'assets/img/portfolio/serverlessLogo.png',
       description:
-        'Este proyecto utiliza tecnologías como Serverless y AWS Lambda para el back-end, y Angular CLI para el front-end, con JavaScript como lenguaje principal. La aplicación se enfoca en la presentación y manejo de personajes de Dragon Ball. Conecta en una lambda que consume una API de Dragon Ball para obtener y gestionar información sobre los personajes.',
+        'This project uses technologies such as Serverless and AWS Lambda for the back-end, and Angular CLI for the front-end, with JavaScript as the main language. The application focuses on the presentation and management of Dragon Ball characters. It connects to a Lambda function that consumes a Dragon Ball API to retrieve and manage information about the characters.',
     },
     {
       id: 'spotiApp',
       title: 'SpotiApp Project',
       logo: 'assets/img/portfolio/spotiappLogo.jpg',
       description:
-        'Este proyecto, desarrollado a partir de un curso de Udemy, utiliza Angular y Bootstrap para crear una aplicación que consume la API de Spotify. Incluye la gestión de rutas y parámetros en Angular, carruseles con Bootstrap 4, y la obtención de datos sobre artistas, álbumes y audio mediante HTTP. Además, maneja datos asíncronos con observables, enlaza campos de texto usando ngModel, y ofrece widgets de Spotify y reproducción de audio con HTML5, así como integración de mapas.',
+        'This project, developed from a Udemy course, uses Angular and Bootstrap to create an application that consumes the Spotify API. It includes route and parameter management in Angular, carousels with Bootstrap 4, and data retrieval about artists, albums, and audio via HTTP. Additionally, it handles asynchronous data with observables, binds text fields using ngModel, and offers Spotify widgets and audio playback with HTML5, as well as map integration.',
     },
     {
       id: 'acyac',
       title: 'Acyac',
       logo: 'assets/img/portfolio/PHP-logo.png',
       description:
-        ' ACyac es un sitio web diseñado para gestionar eventos en una biblioteca popular y salón de eventos. El sitio permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre los eventos, La interfaz ha sido desarrollada utilizando Bootstrap,os datos de los eventos se almacenan en una base de datos local alojada en un servidor XAMPP. La conexión entre la base de datos y la aplicación se realiza mediante PHP',
+        'ACyac is a website designed to manage events at a popular library and event hall. The site allows for CRUD operations (Create, Read, Update, and Delete) on events. The interface has been developed using Bootstrap, and the event data is stored in a local database hosted on a XAMPP server. The connection between the database and the application is made via PHP.',
     },
 
     {
@@ -46,7 +46,7 @@ export class PortfolioComponent {
       title: 'Formularios Templates y Reactivos',
       logo: 'assets/img/portfolio/formularioLogo.png',
       description:
-        'Este proyecto en Angular CLI usa una API de países para demostrar el manejo de formularios, incluyendo el uso de `ngModel`, validaciones predefinidas y personalizadas, y validaciones asíncronas. También cubre la realización de submit con `ngSubmit`, el envío de datos solo cuando el formulario es válido, la creación de formularios en el componente, la carga de información por defecto y la suscripción a cambios en los valores del formulario.',
+        'This project in Angular CLI uses a country API to demonstrate form handling, including the use of `ngModel`, predefined and custom validations, and asynchronous validations. It also covers form submission with `ngSubmit`, sending data only when the form is valid, creating forms in the component, loading default information, and subscribing to changes in form values.',
     },
 
     {
@@ -54,7 +54,7 @@ export class PortfolioComponent {
       title: 'the Weekend Project',
       logo: 'assets/img/portfolio/theweekendLogo.png',
       description:
-        'The Weekend es un software diseñado para gestionar los turnos en una barbería que lleva el mismo nombre. El proyecto cuenta con un backend local desarrollado en JSON, y está construido utilizando Bootstrap para el diseño del sitio web. La aplicación se conecta al backend local en Node.js, permitiendo a los usuarios reservar citas a través de formularios de reservas y completar encuestas de satisfacción para evaluar su experiencia.',
+        'The Weekend is software designed to manage appointments at a barbershop of the same name. The project features a local backend developed in JSON and is built using Bootstrap for the website design. The application connects to a local Node.js backend, allowing users to book appointments through reservation forms and complete satisfaction surveys to evaluate their experience.',
     },
 
     {
@@ -62,23 +62,22 @@ export class PortfolioComponent {
       title: 'FarmApp',
       logo: 'assets/img/portfolio/farmappLogo.png',
       description:
-        'Farmapp es una aplicación en desarrollo diseñada para facilitar la búsqueda de farmacias de turno cercanas y permitir a los usuarios contactarlas desde la comodidad de su hogar. Utilizando el framework Ionic y la integración con Mapbox, Farmapp ofrece una experiencia intuitiva para localizar farmacias en tiempo real. Con un backend construido en Serverless Framework, la app asegura eficiencia y escalabilidad. El diseño de la aplicación, realizado en Figma, garantiza una experiencia de usuario fluida. Estoy trabajando en la app junto al equipo de Bricke, enfocados en mejorar la utilidad de Farmapp y preparándola para su lanzamiento. Farmapp tiene el potencial de convertirse en una herramienta esencial para quienes necesitan acceso rápido y cómodo a los servicios farmacéuticos.',
+        "Farmapp is an application in development designed to facilitate the search for nearby on-duty pharmacies and allow users to contact them from the comfort of their homes. Using the Ionic framework and integration with Mapbox, Farmapp offers an intuitive experience for locating pharmacies in real time. With a backend built on Serverless Framework, the app ensures efficiency and scalability. The app’s design, created in Figma, guarantees a smooth user experience. I am working on the app with the Bricke team, focused on enhancing Farmapp's utility and preparing it for launch. Farmapp has the potential to become an essential tool for those needing quick and convenient access to pharmaceutical services.",
     },
     {
       id: 'heroesApp',
       title: 'Heroes Project',
       logo: 'assets/img/portfolio/angularLogo.png',
       description:
-        'Este proyecto, desarrollado a partir de un curso de Udemy, utiliza TypeScript, Angular CLI y Bootstrap. Implementa el módulo HTTP para interactuar con los servicios RESTful de Firebase, realizando operaciones como POST, GET, DELETE y PUT. También incluye configuraciones en la consola de Firebase para gestionar los servicios y datos.',
+        "This project, developed from a Udemy course, uses TypeScript, Angular CLI, and Bootstrap. It implements the HTTP module to interact with Firebase's RESTful services, performing operations like POST, GET, DELETE, and PUT. It also includes configurations in the Firebase console to manage services and data.",
     },
     {
       id: 'listaTareas',
       title: 'Listas Tareas en Node',
       logo: 'assets/img/portfolio/listaTareasLogo.jpg',
       description:
-        'Este proyecto es una aplicación de consola interactiva desarrollada como parte de un curso de Udemy, utilizando Node.js como framework principal. La aplicación emplea paquetes como Inquirer y Yargs para crear una experiencia de usuario fluida y dinámica en la línea de comandos. Este enfoque permite manejar diversas operaciones de manera eficiente y con una interfaz amigable para el usuario.',
+        'This project is an interactive console application developed as part of a Udemy course, using Node.js as the main framework. The application employs packages like Inquirer and Yargs to create a smooth and dynamic user experience in the command line. This approach allows for handling various operations efficiently with a user-friendly interface.',
     },
   ];
   constructor() {}
-
 }
