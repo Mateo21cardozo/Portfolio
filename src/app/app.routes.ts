@@ -2,12 +2,16 @@ import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 
 export const routes: Routes = [
-  {
-    path: '',
-    loadComponent: () =>
-      import('./pages/portfolio/portfolio.component').then(
-        (m) => m.PortfolioComponent
-      ),
+  // {
+  //   path: '',
+  //   loadComponent: () =>
+  //     import('./pages/portfolio/portfolio.component').then(
+  //       (m) => m.PortfolioComponent
+  //     ),
+  // },
+  { path: '',
+    redirectTo: '/portfolio',
+    pathMatch: 'full'
   },
   {
     path: 'portfolio',
@@ -28,7 +32,7 @@ export const routes: Routes = [
         (m) => m.ContactComponent
       ),
   },
-  { path: '**', pathMatch: 'full', redirectTo: '' },
+  { path: '**', pathMatch: 'full', redirectTo: '/portfolio' },
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes, {useHash: true})],
