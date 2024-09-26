@@ -1,0 +1,13 @@
+.progress-bar {
+    background-color: #0eb9e4;
+    /* Cambia el fondo a blanco */
+    color: #000;
+    /* Color de texto si es necesario */
+        height: 10px;
+}.form-label {
+    color: #000;
+    /* Cambia el color de los títulos de los label a negro */
+}.custom-progress-bar {
+    height: 15px;
+    /* Ajusta el valor según el espesor deseado */
+}
