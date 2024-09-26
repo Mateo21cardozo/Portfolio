@@ -11,3 +11,6 @@
     height: 15px;
     /* Ajusta el valor según el espesor deseado */
 }
+.progress{
+    height: 10px
+}
